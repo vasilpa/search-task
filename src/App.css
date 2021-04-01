@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.employee-table{
+  margin: 50px 0;
+}
+
+.custom-search-results {
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.custom-search-results ul {
+  position: absolute;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #3f51B5;
+}
+.custom-search-results ul li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.custom-search-results ul li:hover {
+  border-bottom: 1px solid #3f51B5;
+}
+
+.card-wrapper {
+  height: 125px;
+  margin: 20px 0;
+}
+
+table thead tr th {
+  cursor: pointer;
+}
+
+table thead tr th span {
+  margin: 0 10px 0 0;
+}
+
+table thead tr .th-title {
+  float: left;
+}
+table tbody tr {
+  cursor: pointer;
+}
